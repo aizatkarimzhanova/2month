@@ -1,24 +1,3 @@
-"""class Contact:
-    def __init__(self, name, phone_number):
-        self.name = name
-        self.phone_number = phone_number
-    def validate_phone_number(phone_number):
-        if phone_number.isdigit() and len(phone_number) == 10:
-            return True
-        else:
-            return False
-print(Contact.validate_phone_number("1234567890"))
-
-class ContactList:
-    all_contacts = []
-
-    @classmethod
-    def add_contacts(cls, name, phone_number):
-        if Contact.validate_phone_number(phone_number):
-            new_contact = Contact()
-        else:
-            raise ValueError("Invalid phone number")
-        cls.add_contacts.append(new_contact)"""
 
 class Contact:
     def __init__(self, name, phone_number):
