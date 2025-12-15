@@ -18,4 +18,3 @@ duck = Duck()
 duck.move()
 # MRO = method resolution order
 print(f"{Duck.mro()}")
-
